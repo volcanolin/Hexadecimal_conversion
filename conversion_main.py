@@ -15,16 +15,16 @@ while True:
 
         # 十进制转换为其它进制
         if action_str == "1":
-            conversion_tools.ten_to_others()
+            conversion_tools.dec_to_others()
         # 二进制转换为其它进制
         if action_str == "2":
-            conversion_tools.two_to_others()
+            conversion_tools.bin_to_others()
         # 八进制转换为其它进制
         if action_str == "3":
-            conversion_tools.eight_to_others()
+            conversion_tools.oct_to_others()
         # 十六进制转换为其它进制
         if action_str == "4":
-            conversion_tools.sixteen_to_others()
+            conversion_tools.hex_to_others()
     # 0 退出系统
     elif action_str == "0":
 
