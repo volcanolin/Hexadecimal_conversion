@@ -1,2 +1,2 @@
-# Hexadecimal_conversion
+# Number system conversion
 Number system conversion tool
