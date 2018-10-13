@@ -1,2 +1,2 @@
 # Hexadecimal_conversion
-Binary conversion tool
+Number system conversion tool
