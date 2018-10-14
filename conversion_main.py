@@ -15,23 +15,44 @@ while True:
 
         # 十进制转换为其它进制
         if action_str == "1":
-            conversion_tools.dec_to_others()
+            while True:
+                conversion_tools.handle_ex_dec()
+                key_str = input("输入 0 返回上级菜单，其它字符或回车继续转换：")
+                if key_str == "0":
+                    break
+                else:
+                    pass
         # 二进制转换为其它进制
         if action_str == "2":
-            conversion_tools.bin_to_others()
+            while True:
+                conversion_tools.handle_ex_bin()
+                key_str = input("输入 0 返回上级菜单，其它字符或回车继续转换：")
+                if key_str == "0":
+                    break
+                else:
+                    pass
         # 八进制转换为其它进制
         if action_str == "3":
-            conversion_tools.oct_to_others()
+            while True:
+                conversion_tools.handle_ex_oct()
+                key_str = input("输入 0 返回上级菜单，其它字符或回车继续转换：")
+                if key_str == "0":
+                    break
+                else:
+                    pass
         # 十六进制转换为其它进制
         if action_str == "4":
-            conversion_tools.hex_to_others()
+            while True:
+                conversion_tools.handle_ex_hex()
+                key_str = input("输入 0 返回上级菜单，其它字符或回车继续转换：")
+                if key_str == "0":
+                    break
+                else:
+                    pass
     # 0 退出系统
     elif action_str == "0":
-
         print("欢迎再次使用【进制转换工具】")
-
         break
-        # pass
     # 其他内容输入错误，需要提示用户
     else:
         print("您输入的不正确，请重新选择")
